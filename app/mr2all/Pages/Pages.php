@@ -1,5 +1,5 @@
-<?php namespace mr2all\Pages;
-use Eloquent
+<?php namespace Mr2all\Pages;
+use Eloquent;
 
 class Pages extends Eloquent
 {

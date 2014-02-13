@@ -1,4 +1,4 @@
-<?php namespace mr2all\Pages;
+<?php namespace Mr2all\Pages;
 
 interface PagesInterface {
 
