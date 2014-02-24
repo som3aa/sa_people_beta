@@ -1,9 +1,11 @@
 /*   
-Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.1.0
-Version: 2.0
+Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.1.1
+Version: 2.0.2
 Author: KeenThemes
 Website: http://www.keenthemes.com/
-Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keentheme
+Contact: support@keenthemes.com
+Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
 */
 
 /*********************
@@ -433,6 +435,7 @@ Header and header elements.
   padding-right: 0;
   padding-left: 0;
   width: 225px;
+  height: 42px;
 }
 
 .header.navbar .navbar-brand img {
@@ -992,6 +995,10 @@ Page content
 
 .page-full-width .page-content {
     margin-right: 0px !important;
+}
+
+.page-full-width .page-sidebar-menu {
+  display: none;
 }
 
 /***

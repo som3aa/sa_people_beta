@@ -1544,3 +1544,37 @@ Bootstrap Select
 .bootstrap-select .selected i {
   color: #aaa;
 }
+
+/***
+Pace - Page Progress
+***/
+
+.pace .pace-progress {
+  z-index: 10000;
+  top: 40px;
+  height: 2px;
+}
+
+.pace .pace-progress-inner {
+  box-shadow: none;
+}
+
+.pace .pace-activity {
+  top: 44px;
+  left: 22px;
+  border-radius: 10px !important;
+}
+
+
+@media (max-width: 480px) { 
+
+  .page-header-fixed .pace .pace-progress {
+    top: 82px;
+  }
+
+  .page-header-fixed .pace .pace-activity {
+    top: 88px;
+    left: 15px;
+  }
+
+}

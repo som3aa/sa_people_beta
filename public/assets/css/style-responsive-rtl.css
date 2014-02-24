@@ -142,6 +142,7 @@ From Medium Devices Up To Larger Devices
 	}
 
 	.page-sidebar-hovering .sub-menu,
+	.page-sidebar-hovering span.badge,
 	.page-sidebar-hovering span.title,
 	.page-sidebar-hovering span.arrow {		  
 		display: none !important;
@@ -313,6 +314,7 @@ From Medium Devices Up To Larger Devices
 	  left: -3px !important;
 	}
 
+	.page-sidebar-closed .page-sidebar-menu > li > a > .badge,
 	.page-sidebar-closed .page-sidebar-menu > li > a > .title,
 	.page-sidebar-closed .page-sidebar-menu > li > a > .arrow {
 	  display: none !important;
@@ -371,6 +373,10 @@ From Medium Devices Up To Larger Devices
 
 	.page-sidebar-closed .page-sidebar-menu > li:hover .title {
 	  display: inline !important;
+	}
+
+	.page-sidebar-closed .page-sidebar-menu > li:hover .badge {
+	  display: block !important;
 	}
 
 	.page-sidebar-closed .page-sidebar-menu > li > .sub-menu {
@@ -520,7 +526,11 @@ Up To Medium Devices
 	 	overflow: hidden !important;
 	 	overflow-y: auto !important;
 	 	display: block !important;
-	 }
+	}
+
+	.page-full-width .page-sidebar-menu {
+  		display: block;
+  	}
 
 	.page-sidebar.navbar-collapse.navbar-no-scroll {
 		max-height: none !important;
@@ -545,7 +555,7 @@ Up To Medium Devices
 	.header.navbar .navbar-nav {
 		display: inline-block;
     	float: left;
-    	margin: 0;
+    	margin: 0 0 0 10px;
   	}
   
  	.header.navbar .navbar-nav > li {
@@ -876,7 +886,8 @@ The Most Extra Small Devices Landscape Mode Only
 	.header.navbar .navbar-nav {
 		display: block;
 		clear: both;
-		margin-top: 5px;
+		margin-top: 2px;
+		margin-left: 0;
 	}
 
 	.header.navbar .navbar-nav > li.dropdown .dropdown-toggle {

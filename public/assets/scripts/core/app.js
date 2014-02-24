@@ -155,8 +155,10 @@ var App = function () {
                 height = _calculateFixedSidebarViewportHeight();
             } else {
                 height = sidebar.height() + 20;
-                if ($(window).width() > 1024 && height < $(window).height()) {
-                    height = $(window).height() - $('.footer').outerHeight() - $('.header').outerHeight();
+                var headerHeight = $('.header').outerHeight();
+                var footerHeight = $('.footer').outerHeight();                
+                if ($(window).width() > 1024 && (height + headerHeight + footerHeight)  < $(window).height()) {
+                    height = $(window).height() - headerHeight - footerHeight;
                 }
             }            
             if (height >= content.height()) {
@@ -184,7 +186,7 @@ var App = function () {
             var menu = $('.page-sidebar-menu');
             var sub = jQuery(this).next();
 
-            var autoScroll = menu.data("auto-scroll") ? menu.data("auto-scroll") : "true"   ;
+            var autoScroll = menu.data("auto-scroll") ? menu.data("auto-scroll") : true;
             var slideSpeed = menu.data("slide-speed") ? parseInt(menu.data("slide-speed")) : 200;
 
             parent.children('li.open').children('a').children('.arrow').removeClass('open');
@@ -197,7 +199,7 @@ var App = function () {
                 jQuery('.arrow', jQuery(this)).removeClass("open");
                 jQuery(this).parent().removeClass("open");
                 sub.slideUp(slideSpeed, function () {
-                    if (autoScroll == "true" && $('body').hasClass('page-sidebar-closed') == false) {
+                    if (autoScroll == true && $('body').hasClass('page-sidebar-closed') == false) {
                         if ($('body').hasClass('page-sidebar-fixed')) {
                             menu.slimScroll({'scrollTo': (the.position()).top});
                         } else {
@@ -210,7 +212,7 @@ var App = function () {
                 jQuery('.arrow', jQuery(this)).addClass("open");
                 jQuery(this).parent().addClass("open");
                 sub.slideDown(slideSpeed, function () {
-                    if (autoScroll == "true" && $('body').hasClass('page-sidebar-closed') == false) {
+                    if (autoScroll == true && $('body').hasClass('page-sidebar-closed') == false) {
                         if ($('body').hasClass('page-sidebar-fixed')) {
                             menu.slimScroll({'scrollTo': (the.position()).top});
                         } else {
