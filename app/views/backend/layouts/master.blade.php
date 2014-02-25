@@ -21,17 +21,17 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 <meta content="" name="author"/>
 <!-- BEGIN GLOBAL MANDATORY STYLES -->
 <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css"/>
-<link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-<link href="assets/plugins/bootstrap/css/bootstrap-rtl.min.css" rel="stylesheet" type="text/css"/>
-<link href="assets/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+<link href="/../assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<link href="/../assets/plugins/bootstrap/css/bootstrap-rtl.min.css" rel="stylesheet" type="text/css"/>
+<link href="/../assets/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
 <!-- END GLOBAL MANDATORY STYLES -->
 <!-- BEGIN THEME STYLES -->
-<link href="assets/css/style-metronic-rtl.css" rel="stylesheet" type="text/css"/>
-<link href="assets/css/style-rtl.css" rel="stylesheet" type="text/css"/>
-<link href="assets/css/style-responsive-rtl.css" rel="stylesheet" type="text/css"/>
-<link href="assets/css/plugins-rtl.css" rel="stylesheet" type="text/css"/>
-<link href="assets/css/themes/light-rtl.css" rel="stylesheet" type="text/css" id="style_color"/>
-<link href="assets/css/custom-rtl.css" rel="stylesheet" type="text/css"/>
+<link href="/../assets/css/style-metronic-rtl.css" rel="stylesheet" type="text/css"/>
+<link href="/../assets/css/style-rtl.css" rel="stylesheet" type="text/css"/>
+<link href="/../assets/css/style-responsive-rtl.css" rel="stylesheet" type="text/css"/>
+<link href="/../assets/css/plugins-rtl.css" rel="stylesheet" type="text/css"/>
+<link href="/../assets/css/themes/light-rtl.css" rel="stylesheet" type="text/css" id="style_color"/>
+<link href="/../assets/css/custom-rtl.css" rel="stylesheet" type="text/css"/>
 <!-- END THEME STYLES -->
 <link rel="shortcut icon" href="favicon.ico"/>
 </head>
@@ -44,12 +44,12 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 	<div class="header-inner">
 		<!-- BEGIN LOGO -->
 		<a class="navbar-brand" href="index.html">
-			<img src="assets/img/logo.png" alt="logo" class="img-responsive"/>
+			<img src="/../assets/img/logo.png" alt="logo" class="img-responsive"/>
 		</a>
 		<!-- END LOGO -->
 		<!-- BEGIN RESPONSIVE MENU TOGGLER -->
 		<a href="javascript:;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-			<img src="assets/img/menu-toggler.png" alt=""/>
+			<img src="/../assets/img/menu-toggler.png" alt=""/>
 		</a>
 		<!-- END RESPONSIVE MENU TOGGLER -->
 	</div>
@@ -237,21 +237,21 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
 <!-- BEGIN CORE PLUGINS -->
 <!--[if lt IE 9]>
-   <script src="assets/plugins/respond.min.js"></script>
-   <script src="assets/plugins/excanvas.min.js"></script> 
+   <script src="/../assets/plugins/respond.min.js"></script>
+   <script src="/../assets/plugins/excanvas.min.js"></script> 
    <![endif]-->
-<script src="assets/plugins/jquery-1.10.2.min.js" type="text/javascript"></script>
-<script src="assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+<script src="/../assets/plugins/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="/../assets/plugins/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
 <!-- IMPORTANT! Load jquery-ui-1.10.3.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
-<script src="assets/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
-<script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="assets/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
-<script src="assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
-<script src="assets/plugins/jquery.blockui.min.js" type="text/javascript"></script>
-<script src="assets/plugins/jquery.cokie.min.js" type="text/javascript"></script>
-<script src="assets/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+<script src="/../assets/plugins/jquery-ui/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+<script src="/../assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="/../assets/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+<script src="/../assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="/../assets/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+<script src="/../assets/plugins/jquery.cokie.min.js" type="text/javascript"></script>
+<script src="/../assets/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
 <!-- END CORE PLUGINS -->
-<script src="assets/scripts/core/app.js"></script>
+<script src="/../assets/scripts/core/app.js"></script>
 <script>
       jQuery(document).ready(function() {    
          App.init();

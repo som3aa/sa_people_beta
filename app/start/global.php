@@ -79,3 +79,15 @@ App::down(function()
 */
 
 require app_path().'/filters.php';
+
+/*
+|--------------------------------------------------------------------------
+| Require The Bindings File
+|--------------------------------------------------------------------------
+|
+| This will handle all the bindings in Mr2all Custom Functionality
+|
+*/
+
+require app_path().'/start/bindings.php';
+

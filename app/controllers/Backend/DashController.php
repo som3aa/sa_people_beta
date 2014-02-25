@@ -1,5 +1,5 @@
 <?php namespace Backend;
-use Controller, View;
+use View;
 
 class DashController extends BaseController {
 
