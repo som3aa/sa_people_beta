@@ -14,13 +14,12 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 <!-- BEGIN HEAD -->
 <head>
 <meta charset="utf-8"/>
-<title>@yield('title')</title>
+<title>لوحة التحكم - @yield('title')</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta content="" name="description"/>
 <meta content="" name="author"/>
 <!-- BEGIN GLOBAL MANDATORY STYLES -->
-<link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css"/>
 <link href="/../assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 <link href="/../assets/plugins/bootstrap/css/bootstrap-rtl.min.css" rel="stylesheet" type="text/css"/>
 <link href="/../assets/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
@@ -78,7 +77,7 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 							<div class="input-box">
 								<a href="javascript:;" class="remove">
 								</a>
-								<input type="text" placeholder="Search..."/>
+								<input type="text" placeholder="بحث..."/>
 								<input type="button" class="submit" value=" "/>
 							</div>
 						</div>
@@ -86,68 +85,35 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 					<!-- END RESPONSIVE QUICK SEARCH FORM -->
 				</li>
 				<li class="start ">
-					<a href="index.html">
+					<a href="/../">
 						<i class="fa fa-home"></i>
 						<span class="title">
-							Dashboard
+							الصفحة الرئيسية
 						</span>
 					</a>
-				</li>
-				<li>
-					<a href="javascript:;">
-						<i class="fa fa-shopping-cart"></i>
-						<span class="title">
-							E-Commerce
-						</span>
-						<span class="arrow ">
-						</span>
-					</a>
-					<ul class="sub-menu">
-						<li>
-							<a href="ecommerce_index.html">
-								<i class="fa fa-bullhorn"></i>
-								Dashboard
-							</a>
-						</li>
-						<li>
-							<a href="ecommerce_orders.html">
-								<i class="fa fa-shopping-cart"></i>
-								Orders
-							</a>
-						</li>
-					</ul>
 				</li>
 				<li class="active ">
 					<a href="javascript:;">
-						<i class="fa fa-cogs"></i>
+						<i class="fa fa-files-o"></i>
 						<span class="title">
-							Page Layouts
+							الصفحات
 						</span>
-						<span class="selected">
-						</span>
+						<span class="selected"></span>
 						<span class="arrow open">
 						</span>
 					</a>
 					<ul class="sub-menu">
-						<li>
-							<a href="index_horizontal_menu.html">
-								 Dashboard & Mega Menu
+						<li class="active">
+							<a href="/../admin/pages">
+								جميع الصفحات
 							</a>
 						</li>
 						<li>
-							<a href="layout_horizontal_sidebar_menu.html">
-								 Horizontal & Sidebar Menu
+							<a href="/../admin/pages/create">
+								اضافة صفحة
 							</a>
 						</li>
 					</ul>
-				</li>
-				<li class="last ">
-					<a href="charts.html">
-						<i class="fa fa-bar-chart-o"></i>
-						<span class="title">
-							Visual Charts
-						</span>
-					</a>
 				</li>
 			</ul>
 			<!-- END SIDEBAR MENU -->
@@ -157,59 +123,6 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 	<!-- BEGIN CONTENT -->
 	<div class="page-content-wrapper">
 		<div class="page-content">
-			<!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM-->
-			<div class="modal fade" id="portlet-config" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-				<div class="modal-dialog">
-					<div class="modal-content">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
-							<h4 class="modal-title">Modal title</h4>
-						</div>
-						<div class="modal-body">
-							 Widget settings form goes here
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn blue">Save changes</button>
-							<button type="button" class="btn default" data-dismiss="modal">Close</button>
-						</div>
-					</div>
-					<!-- /.modal-content -->
-				</div>
-				<!-- /.modal-dialog -->
-			</div>
-			<!-- /.modal -->
-			<!-- END SAMPLE PORTLET CONFIGURATION MODAL FORM-->
-			<!-- BEGIN PAGE HEADER-->
-			<div class="row">
-				<div class="col-md-12">
-					<!-- BEGIN PAGE TITLE & BREADCRUMB-->
-					<h3 class="page-title">
-					<small>blank page</small>
-					Blank Page</h3>
-					<ul class="page-breadcrumb breadcrumb">
-						<li>
-							<i class="fa fa-home"></i>
-							<a href="index.html">
-								Home
-							</a>
-							<i class="fa fa-angle-left"></i>
-						</li>
-						<li>
-							<a href="#">
-								Page Layouts
-							</a>
-							<i class="fa fa-angle-left"></i>
-						</li>
-						<li>
-							<a href="#">
-								Blank Page
-							</a>
-						</li>
-					</ul>
-					<!-- END PAGE TITLE & BREADCRUMB-->
-				</div>
-			</div>
-			<!-- END PAGE HEADER-->
 			<!-- BEGIN PAGE CONTENT-->
 			<div class="row">
 				<div class="col-md-12">
@@ -225,7 +138,7 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 <!-- BEGIN FOOTER -->
 <div class="footer">
 	<div class="footer-inner">
-		 2014 &copy; Metronic by keenthemes.
+		جميع الحقوق محفوظة لشبكة سوداكتف &copy; 2014 
 	</div>
 	<div class="footer-tools">
 		<span class="go-top">

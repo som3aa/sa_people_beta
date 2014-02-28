@@ -25,4 +25,14 @@ class PagesController extends BaseController {
 		return View::make('Backend\Pages\index', compact('pages'));
 	}
 
+	/**
+	 * Get Create Page View
+	 * @return View
+	 */
+	public function getCreate() 
+	{
+		return View::make('Backend\pages\create');
+	}
+
+
 }

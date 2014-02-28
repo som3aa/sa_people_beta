@@ -1,12 +1,11 @@
 @extends('backend.layouts.master')
 
 @section('title')
-    the title
+الرئيسية
 @stop
 
 @section('content')
-
-    <h1>Welcome!</h1>
-    <p>Manage content for your website, including but not limited to:</p>
-
+	<!-- Page Header -->
+	<h3 class="page-title">لوحة التحكم</h3>
+	<!-- END Page Header -->
 @stop
