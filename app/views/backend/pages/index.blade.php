@@ -8,7 +8,7 @@
 	<!-- Page Header -->
 	<h3 class="page-title">
 	الصفحات
-	<small><a href="/../pages/create" class="btn btn-xs default"> صفحة جديدة </a></small>
+	<small><a href="/../admin/pages/create" class="btn btn-xs default"> صفحة جديدة </a></small>
 	</h3>
 	<!-- END Page Header -->
 	<!-- Pages Tables -->

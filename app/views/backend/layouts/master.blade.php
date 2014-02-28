@@ -42,7 +42,7 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 	<!-- BEGIN TOP NAVIGATION BAR -->
 	<div class="header-inner">
 		<!-- BEGIN LOGO -->
-		<a class="navbar-brand" href="index.html">
+		<a class="navbar-brand" href="/../admin">
 			<img src="/../assets/img/logo.png" alt="logo" class="img-responsive"/>
 		</a>
 		<!-- END LOGO -->
@@ -84,33 +84,33 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 					</form>
 					<!-- END RESPONSIVE QUICK SEARCH FORM -->
 				</li>
-				<li class="start ">
+				<li class="start {{ HTML::isActive('backend.dash') }} ">
 					<a href="/../">
 						<i class="fa fa-home"></i>
 						<span class="title">
 							الصفحة الرئيسية
 						</span>
+						{{ HTML::isActive('backend.dash',true) }}
 					</a>
 				</li>
-				<li class="active ">
+				<li class="{{ HTML::isActive('backend.pages') }} ">
 					<a href="javascript:;">
 						<i class="fa fa-files-o"></i>
 						<span class="title">
 							الصفحات
 						</span>
-						<span class="selected"></span>
+						{{ HTML::isActive('backend.pages',true) }}
 						<span class="arrow open">
-						</span>
 					</a>
 					<ul class="sub-menu">
-						<li class="active">
+						<li class="{{ HTML::isActive('backend.pages.index') }}">
 							<a href="/../admin/pages">
 								جميع الصفحات
 							</a>
 						</li>
-						<li>
+						<li class="{{ HTML::isActive('backend.pages.create') }}">
 							<a href="/../admin/pages/create">
-								اضافة صفحة
+								صفحة جديدة
 							</a>
 						</li>
 					</ul>
