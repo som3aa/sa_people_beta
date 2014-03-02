@@ -90,14 +90,3 @@ require app_path().'/filters.php';
 */
 
 require app_path().'/Mr2all/Core/bindings.php';
-
-/*
-|--------------------------------------------------------------------------
-| Require The HTML Macros File (Helpers)
-|--------------------------------------------------------------------------
-|
-| This will handle all the Custom HTML Macros in Mr2all helpers
-|
-*/
-
-require app_path().'/Mr2all/Helpers/macros.php';

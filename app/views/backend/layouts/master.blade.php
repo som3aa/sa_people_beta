@@ -84,31 +84,31 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 					</form>
 					<!-- END RESPONSIVE QUICK SEARCH FORM -->
 				</li>
-				<li class="start {{ HTML::isActive('backend.dash') }} ">
+				<li class="start {{ Check::isActive('dash','active') }} ">
 					<a href="/../">
 						<i class="fa fa-home"></i>
 						<span class="title">
 							الصفحة الرئيسية
 						</span>
-						{{ HTML::isActive('backend.dash',true) }}
+						{{ Check::isActive('dash','<span class="selected"></span>') }}
 					</a>
 				</li>
-				<li class="{{ HTML::isActive('backend.pages') }} ">
+				<li class="{{ Check::isActive('pages','active') }} ">
 					<a href="javascript:;">
 						<i class="fa fa-files-o"></i>
 						<span class="title">
 							الصفحات
 						</span>
-						{{ HTML::isActive('backend.pages',true) }}
+						{{ Check::isActive('pages','<span class="selected"></span>') }}
 						<span class="arrow open">
 					</a>
 					<ul class="sub-menu">
-						<li class="{{ HTML::isActive('backend.pages.index') }}">
+						<li class="{{ Check::isActive('pages.index','active') }}">
 							<a href="/../admin/pages">
 								جميع الصفحات
 							</a>
 						</li>
-						<li class="{{ HTML::isActive('backend.pages.create') }}">
+						<li class="{{ Check::isActive('pages.create','active') }}">
 							<a href="/../admin/pages/create">
 								صفحة جديدة
 							</a>
