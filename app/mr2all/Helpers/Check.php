@@ -44,7 +44,6 @@ class Check {
 	    		return $return;
 	    	}
 	    }
-
 	    return false;
     }
 
