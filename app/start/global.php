@@ -89,7 +89,7 @@ require app_path().'/filters.php';
 |
 */
 
-require app_path().'/start/bindings.php';
+require app_path().'/Mr2all/Core/bindings.php';
 
 /*
 |--------------------------------------------------------------------------
